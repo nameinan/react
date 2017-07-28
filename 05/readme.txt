@@ -1,0 +1,1 @@
+Passed properties in component
