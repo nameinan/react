@@ -10,6 +10,8 @@ class Clock extends Component {
       minutes:0,
       seconds:0
     }
+
+    console.log(this.props);
   }
 
   render(){
@@ -20,7 +22,9 @@ class Clock extends Component {
           <div className="Clock-minutes">{this.state.minutes} minutes</div>
           <div className="Clock-seconds">{this.state.seconds} seconds</div>
         </div>
-    )
+
+      )
+
   }
 }
 
